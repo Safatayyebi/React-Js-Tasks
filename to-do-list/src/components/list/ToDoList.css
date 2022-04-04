@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../../font/Montserrat-VariableFont_wght.ttf);
+}
+
+.list {
+    margin: 20px 0 25px 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: Montserrat;
+}
+
+.list-a {
+    width: 80%;
+    margin: auto;
+    list-style-type: decimal;
+    list-style-position: outside;
+}
+
+.list-b {
+    margin-bottom: 20px;
+    border-top: 1px solid #e3e3e3;
+    padding: 20px 0 0 0;
+}
+
+
+
+.list-b h4 {
+    flex: 6;
+    padding: 10px 10px 10px 10px;
+    font-size: 14px;
+}
+
+.list-b button {
+    flex: 1;
+}
+
+
+/*  */
+
+.list-c {
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+
+#delete {
+    margin: 0px 2.5px 0px 5px;
+    padding: 10px;
+    border: 1px solid #d3d3d3;
+    border-radius: 2px;
+    font-size: 11.5px;
+    font-family: Montserrat;
+    background-color: #f4f4f4;
+    transition: all 0.5s;
+}
+
+#done {
+    margin: 0px 0px 0px 2.5px;
+    padding: 10px;
+    border: 1px solid #d3d3d3;
+    border-radius: 2px;
+    font-size: 11.5px;
+    font-family: Montserrat;
+    background-color: #f4f4f4;
+    transition: all 0.5s;
+}
+
+#delete:hover {
+    cursor: pointer;
+    background-color: #f08080;
+    color: #f8f8f8;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+}
+
+#done:hover {
+    cursor: pointer;
+    background-color: #8fbc8f;
+    color: white;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+}
