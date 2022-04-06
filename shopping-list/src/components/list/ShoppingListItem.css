@@ -1,0 +1,47 @@
+.shopping-list {
+    width: 100%;
+    margin: auto;
+}
+
+.list-items {
+    border-bottom: 1px solid black;
+}
+
+.list-items:nth-last-child(1) {
+    border-bottom: 1px solid black;
+}
+
+.list-item-detail {
+    display: flex;
+    font-size: 18px;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list-item-detail li {
+    flex: 1;
+    text-align: center;  
+}
+
+
+/* button */
+
+#delete {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: all 0.9s;
+}
+
+#delete:hover {
+    cursor: pointer;
+    background-color:black;
+    color: white;
+    border: 1px solid white; 
+}
+
+
+
+

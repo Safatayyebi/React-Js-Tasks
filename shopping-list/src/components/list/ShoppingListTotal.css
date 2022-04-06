@@ -1,0 +1,24 @@
+.shopping-list-total {
+    width: 100%;
+    margin: auto;   
+    border-bottom: 1px solid black;
+}
+
+
+.list-item-detail-total {
+    display: flex;
+    font-size: 18px;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.list-item-detail-total li:nth-child(1) {
+    flex: 4;
+    text-align: center;
+    border-right: 1px solid black;
+}
+
+.list-item-detail-total li:nth-child(2) {
+    flex: 2;
+    text-align: center;
+}

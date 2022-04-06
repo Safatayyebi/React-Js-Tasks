@@ -1,0 +1,20 @@
+.shopping-list-header {
+    width: 100%;
+    margin: 25px auto auto auto;    
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+
+.list-item-detail-header {
+    display: flex;
+    font-size: 18px;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.list-item-detail-header li {
+    flex: 1;
+    text-align: center;
+}

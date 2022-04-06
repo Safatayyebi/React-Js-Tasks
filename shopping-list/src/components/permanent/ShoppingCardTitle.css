@@ -1,0 +1,11 @@
+.shop-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 22.5px 0;
+    font-size: 35px;
+    border-bottom: 1px solid black;
+    padding: 22.5px 0 30px 0;
+    border-top: 1px solid black;
+}
